@@ -1,0 +1,35 @@
+.ttt {
+  width: 400px;
+  margin: 0 auto;
+  background: none;
+}
+
+li {
+  float: left;
+}
+
+.square {
+  outline: 3px black;
+  width: 100px;
+  height: 100px;
+  float: left;
+  background-color: gray;
+  list-style: none;
+  border: 3px solid black;
+}
+
+.square:hover {
+  background-color: yellow;
+}
+
+.group:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+ul.group {
+  margin: 0;
+  width: 400px;
+  padding: 0;
+}
